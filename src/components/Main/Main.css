@@ -6,10 +6,9 @@
 }
 
 .flex-item {
-  margin-left: 2rem;
   font-family: "Montserrat", sans-serif;
   margin-top: 13rem;
-  text-align: left;
+  text-align: center;
   flex: 1 1 33.33%;
 }
 
@@ -23,21 +22,10 @@
   width: 0;
   max-width: max-content;
   border-right: 2px solid;
-  margin: 0;
+  margin: 1rem 0 0 0;
   animation: typing 1.5s steps(50, end) forwards;
   animation: typing-erase 10s steps(80, end) infinite,
     blinking 0.5s step-end infinite;
-}
-
-.skill-list {
-  opacity: 0;
-  animation: fadeIn 2s ease-in;
-  animation-fill-mode: forwards;
-}
-
-.skill-list li {
-  font-size: 1.3rem;
-  list-style-type: none;
 }
 
 @keyframes typing {
@@ -74,15 +62,5 @@
   90%,
   100% {
     width: 0;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
   }
 }
