@@ -1,6 +1,106 @@
 .about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #303030;
   min-height: 100vh;
+  padding: 4rem;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.about h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 5rem;
+}
+
+.about h1 span {
+  color: #ffc300;
+  display: inline-block;
+  animation: enlargeAnimation 1.5s infinite;
+}
+
+.about p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+.about-img {
+  width: 35vw;
+}
+
+.about-text {
+  margin-left: 3rem;
+  float: right;
+}
+
+.colorfull {
+  font-size: 1.4rem;
+  animation: colorfulTextAnimation 4s linear infinite;
+}
+
+.large-icon {
+  font-size: 1.8rem;
+}
+
+/* ****************** Animations ********************* */
+
+@keyframes enlargeAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    ftransform: scale(1);
+  }
+}
+
+@keyframes colorfulTextAnimation {
+  0%,
+  100% {
+    color: #ff5733; /* Orange */
+  }
+  20% {
+    color: #ffc300; /* Yellow */
+  }
+  40% {
+    color: #4caf50; /* Green */
+  }
+  60% {
+    color: #3498db; /* Blue */
+  }
+  80% {
+    color: #9b59b6; /* Purple */
+  }
+}
+
+/*********************** Drafted Styles *****************************/
+
+/* .react-blue {
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  color: #00d7fe;
+}
+
+.html-orange {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  color: #ff6c39;
+}
+
+.css-blue {
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  color: #1f62ae;
+}
+
+.js-yellow {
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  color: #f0db4f;
+} */
+
+/* .disappear {
+  animation: disappearAndReappear 2s ease-in-out infinite alternate;
+} */
