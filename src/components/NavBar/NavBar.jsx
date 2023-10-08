@@ -1,4 +1,5 @@
 import "./NavBar.css";
+import { Link } from "react-scroll";
 
 export default function Navbar() {
   return (
@@ -6,18 +7,18 @@ export default function Navbar() {
       <h1>Portfolio</h1>
 
       <div className="nav-links">
-        <a className="hover" href="#home">
+        <Link className="hover" to="home" smooth={true} duration={500}>
           Home
-        </a>
-        <a className="hover" href="#about">
+        </Link>
+        <Link className="hover" to="about" smooth={true} duration={500}>
           About
-        </a>
-        <a className="hover" href="">
+        </Link>
+        <Link className="hover" to="home" smooth={true} duration={500}>
           Projects
-        </a>
-        <a className="hover" href="">
-          Contact
-        </a>
+        </Link>
+        <Link className="hover" to="about" smooth={true} duration={500}>
+          Contact Me
+        </Link>
       </div>
     </div>
   );
