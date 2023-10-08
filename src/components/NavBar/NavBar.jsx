@@ -1,5 +1,4 @@
 import "./NavBar.css";
-import { Outlet, Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -7,10 +6,18 @@ export default function Navbar() {
       <h1>Portfolio</h1>
 
       <div className="nav-links">
-        <span className="hover">Home</span>
-        <span className="hover">About</span>
-        <span className="hover">Projects</span>
-        <span className="hover">Contact</span>
+        <a className="hover" href="#home">
+          Home
+        </a>
+        <a className="hover" href="#about">
+          About
+        </a>
+        <a className="hover" href="">
+          Projects
+        </a>
+        <a className="hover" href="">
+          Contact
+        </a>
       </div>
     </div>
   );

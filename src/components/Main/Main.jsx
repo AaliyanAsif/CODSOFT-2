@@ -6,7 +6,7 @@ import SkillList from "./SkillList/SkillList";
 
 export default function Main() {
   return (
-    <div className="main-body">
+    <div id="home" className="main-body">
       <div className="flex-item">
         <h1>My Expertise</h1>
         <div className="container">
