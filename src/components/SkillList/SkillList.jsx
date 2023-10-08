@@ -1,4 +1,4 @@
-import Skill from "./Skill/Skill";
+import Skill from "../skill/Skill";
 
 export default function SkillList() {
   return (

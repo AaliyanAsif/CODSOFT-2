@@ -1,0 +1,22 @@
+#projects {
+  padding: 4rem;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#projects h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 5rem;
+}
+
+#projects h4 {
+  margin-top: 2rem;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+.projects-flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5rem 0;
+}

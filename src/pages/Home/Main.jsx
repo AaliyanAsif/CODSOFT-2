@@ -1,8 +1,8 @@
-import RedirectButton from "../Buttons/RedirectButton";
-import RedirectIcon from "../Buttons/RedirectIcon";
-import Intro from "./Intro/Intro";
+import RedirectButton from "../../components/Buttons/RedirectButton";
+import RedirectIcon from "../../components/Buttons/RedirectIcon";
+import Intro from "../../components/Intro/Intro";
 import "./Main.css";
-import SkillList from "./SkillList/SkillList";
+import SkillList from "../../components/SkillList/SkillList";
 import { Element } from "react-scroll";
 
 export default function Main() {
@@ -19,6 +19,7 @@ export default function Main() {
             link={
               "https://drive.google.com/file/d/1fIG9HrqM1r_8_FVvAg4BQf5StY4hY5lr/view?usp=sharing"
             }
+            text={"View Resume"}
           />
           <br />
           <div className="contact-icons">

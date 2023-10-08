@@ -35,16 +35,6 @@
   align-items: center;
 }
 
-.small-icon {
-  width: 2.5rem;
-  margin: 4rem 1rem;
-  border-radius: 50%;
-}
-
-.small-icon:hover {
-  opacity: 0.7;
-}
-
 @keyframes typing {
   from {
     width: 0;
