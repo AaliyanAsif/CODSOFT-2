@@ -5,7 +5,7 @@ export default function SkillList() {
     <ul className="skill-list">
       <Skill
         skillName="React"
-        skillImg="./public/1174949_js_react js_logo_react_react native_icon.png"
+        skillImg="./1174949_js_react js_logo_react_react native_icon.png"
       />
       <Skill skillName="JavaScript" skillImg="./javascript.png" />
       <Skill skillName="CSS 3" skillImg="./css.png" />
