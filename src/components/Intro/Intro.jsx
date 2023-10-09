@@ -5,7 +5,7 @@ export default function Intro() {
       <div>
         <div className="name">
           <h2>Hey There! I Am</h2>
-          <h1>Aaliyan Asif </h1>
+          <h1>Aaliyan Asif</h1>
         </div>
         <img className="pfp" src="./zyro-image - Copy.png" />
       </div>

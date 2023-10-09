@@ -4,15 +4,12 @@
   min-height: 100vh;
   width: 45%;
   background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='20' height='20' patternTransform='scale(1) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0, 0%, 14%, 1)'/><path d='M10 15a5 5 0 110-10 5 5 0 010 10z'  stroke-width='1' stroke='hsla(0, 2%, 24%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
-  /* border-bottom-left-radius: 15rem;
-  border-bottom-right-radius: 15rem; */
 }
 
 .name {
   margin-top: 6rem;
   text-transform: uppercase;
   text-align: center;
-  /* padding: 1rem; */
   font-family: "Montserrat", sans-serif;
 }
 
@@ -23,5 +20,4 @@
 
 .pfp {
   width: 30vw;
-  /* margin-top: 2rem; */
 }
