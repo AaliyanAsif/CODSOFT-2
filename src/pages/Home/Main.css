@@ -29,12 +29,6 @@
     blinking 0.5s step-end infinite;
 }
 
-.contact-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 @keyframes typing {
   from {
     width: 0;

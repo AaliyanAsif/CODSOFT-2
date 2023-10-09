@@ -16,7 +16,7 @@ export default function Navbar() {
         <Link className="hover" to="projects" smooth={true} duration={500}>
           Projects
         </Link>
-        <Link className="hover" to="about" smooth={true} duration={500}>
+        <Link className="hover" to="contact" smooth={true} duration={500}>
           Contact Me
         </Link>
       </div>
