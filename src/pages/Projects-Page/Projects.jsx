@@ -12,7 +12,7 @@ export default function Projects() {
       </h4>
       <div className="projects-flex">
         <ProjectContainer
-          img={"/assests/packpal.png"}
+          img={"./packpal.png"}
           title={"PackPal"}
           siteLink={"https://aaliyanasif.github.io/PackPal/"}
           github={"https://github.com/AaliyanAsif/PackPal"}
@@ -23,7 +23,7 @@ export default function Projects() {
           item again.
         </ProjectContainer>
         <ProjectContainer
-          img={"/assests/images/agecal.jpg"}
+          img={"./agecal.jpg"}
           title={"Age Calculator"}
           siteLink={"https://aaliyanasif.github.io/age-calculator/"}
           github={"https://github.com/AaliyanAsif/age-calculator"}
@@ -36,7 +36,7 @@ export default function Projects() {
           age effortlessly!
         </ProjectContainer>
         <ProjectContainer
-          img={"/assests/images/fylo.png"}
+          img={"./fylo.png"}
           title={"Fylo Landing Page"}
           siteLink={"https://aaliyanasif.github.io/Fylo-Landing-Page/"}
           github={"https://github.com/AaliyanAsif/Fylo-Landing-Page"}
@@ -49,7 +49,7 @@ export default function Projects() {
           knows no bounds
         </ProjectContainer>
         <ProjectContainer
-          img={"/assests/images/simongame.png"}
+          img={"./simongame.png"}
           title={"Simon Game"}
           siteLink={"https://aaliyanasif.github.io/SimonGame/"}
           github={"https://github.com/AaliyanAsif/SimonGame"}
@@ -62,7 +62,7 @@ export default function Projects() {
         </ProjectContainer>
 
         <ProjectContainer
-          img={"/assests/images/eatnsplit.png"}
+          img={"./eatnsplit.png"}
           title={"Eat-N-Split"}
           siteLink={"https://aaliyanasif.github.io/eat-n-split/"}
           github={"https://github.com/AaliyanAsif/eat-n-split"}
@@ -73,7 +73,7 @@ export default function Projects() {
           friends, making financial management a breeze.
         </ProjectContainer>
         <ProjectContainer
-          img={"/assests/images/clipboard.png"}
+          img={"./clipboard.png"}
           title={"ClipBoard Landing Page"}
           siteLink={"https://aaliyanasif.github.io/Clipboard-Landing-Page/"}
           github={"https://github.com/AaliyanAsif/Clipboard-Landing-Page"}
