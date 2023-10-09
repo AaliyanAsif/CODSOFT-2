@@ -1,9 +1,9 @@
 import RedirectButton from "../../components/Buttons/RedirectButton";
-import RedirectIcon from "../../components/Buttons/RedirectIcon";
 import Intro from "../../components/Intro/Intro";
 import "./Main.css";
 import SkillList from "../../components/SkillList/SkillList";
 import { Element } from "react-scroll";
+import ContactIcons from "../../components/Contact-icons/ContactIcons";
 
 export default function Main() {
   return (
@@ -22,20 +22,7 @@ export default function Main() {
             text={"View Resume"}
           />
           <br />
-          <div className="contact-icons">
-            <RedirectIcon
-              link={"https://github.com/AaliyanAsif"}
-              image={"/assests/github.png"}
-            />
-            <RedirectIcon
-              link={"https://www.linkedin.com/in/aaliyan-asif-67b090271/"}
-              image={"/assests/linkedin.png"}
-            />
-            <RedirectIcon
-              link={"mailto:aaliyanasif@outlook.com"}
-              image={"/assests/mail.png"}
-            />
-          </div>
+          <ContactIcons />
         </div>
         <Intro />
         <div className="flex-item">
