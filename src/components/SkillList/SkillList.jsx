@@ -5,11 +5,11 @@ export default function SkillList() {
     <ul className="skill-list">
       <Skill
         skillName="React"
-        skillImg="/assests/1174949_js_react js_logo_react_react native_icon.png"
+        skillImg="./public/1174949_js_react js_logo_react_react native_icon.png"
       />
-      <Skill skillName="JavaScript" skillImg="/assests/javascript.png" />
-      <Skill skillName="CSS 3" skillImg="/assests/css.png" />
-      <Skill skillName="HTML 5" skillImg="/assests/html.svg" />
+      <Skill skillName="JavaScript" skillImg="./javascript.png" />
+      <Skill skillName="CSS 3" skillImg="./css.png" />
+      <Skill skillName="HTML 5" skillImg="./html.svg" />
     </ul>
   );
 }
